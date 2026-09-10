@@ -6,7 +6,7 @@
 
 本项目只做导航、独立简介和安装指引，不镜像第三方 Skill 源码。收录来源不限于 GitHub，也包括公开的 Skill 市场、独立网站、文档站和社区项目。
 
-> 当前只区分“照片再创作”和“通用视觉工作流”，暂不建立复杂标签。顺序不代表排名；信息最后核对于 2026-09-09。
+> 当前只区分“照片再创作”和“通用视觉工作流”，暂不建立复杂标签。顺序不代表排名；信息最后核对于 2026-09-10。
 
 ## 照片再创作型 Skill
 
@@ -49,6 +49,56 @@
       <td><a href="skills/photo-to-monthly-zine-postcard.md"><strong>Photo to Monthly Zine Postcard</strong></a><br><sub>by <a href="https://github.com/shenchangyi">shenchangyi</a></sub></td>
       <td>制作 3:4 月历感 Zine 明信片：完整保留照片，再加入场景水彩、月份、文学和音乐信息。<br><sub>MIT License。</sub></td>
       <td align="center"><img src="assets/previews/monthly-zine-postcard.jpg" width="240" alt="Monthly Zine Postcard combined official example"><br><sub>Combined official example</sub></td>
+    </tr>
+    <tr>
+      <td><a href="skills/gpt-image2-skill.md"><strong>GPT Image 2 Skill</strong></a><br><sub>by <a href="https://github.com/wuyoscar">wuyoscar</a></sub></td>
+      <td>先从参考图提取可复用的正向与负向提示词，再用配套 Skill 生成或编辑图片；同时提供大量风格案例。<br><sub>MIT License。</sub></td>
+      <td align="center"><img src="assets/previews/gpt-image2-reference.jpg" width="118" alt="GPT Image 2 reference image"> <img src="assets/previews/gpt-image2-result.png" width="118" alt="GPT Image 2 generated result"><br><sub>Before · After</sub></td>
+    </tr>
+    <tr>
+      <td><a href="skills/photo-riso-poster.md"><strong>Photo Riso Poster</strong></a><br><sub>by <a href="https://github.com/luckdvr">luckdvr</a></sub></td>
+      <td>把照片中的主要形状、方向与取样色压缩成 2–3 色孔版印刷海报，保留颗粒、套印偏差和克制文字。<br><sub>MIT License。</sub></td>
+      <td align="center"><img src="assets/previews/photo-riso-poster.jpg" width="240" alt="Photo Riso Poster combined source and result"><br><sub>Combined official example</sub></td>
+    </tr>
+    <tr>
+      <td><a href="skills/ink-wash-poster.md"><strong>Ink Wash Poster</strong></a><br><sub>by <a href="https://github.com/TwentyfiveBTea">TwentyfiveBTea</a></sub></td>
+      <td>围绕一个主要水墨动作、纸张底色、留白和稀疏排版，把参考照片转译成竖向水墨编辑海报。<br><sub>GNU AGPL-3.0。</sub></td>
+      <td align="center"><img src="assets/previews/ink-wash-source.jpg" width="118" alt="Ink Wash Poster source photograph"> <img src="assets/previews/ink-wash-result.png" width="118" alt="Ink Wash Poster result"><br><sub>Before · After</sub></td>
+    </tr>
+    <tr>
+      <td><a href="skills/xxd-panel-028.md"><strong>XXD Panel 028</strong></a><br><sub>by <a href="https://github.com/nevertoday">nevertoday</a></sub></td>
+      <td>保留照片的主体轮廓、关系和来源色，把场景转成放在纸面底座上的正交等距微缩模型。<br><sub>PolyForm Noncommercial 1.0.0。</sub></td>
+      <td align="center"><img src="assets/previews/xxd-panel-028.png" width="240" alt="XXD Panel 028 combined source and result"><br><sub>Combined official example</sub></td>
+    </tr>
+    <tr>
+      <td><a href="skills/art-split-poster.md"><strong>Art Split Poster</strong></a><br><sub>by <a href="https://github.com/heycalvin">heycalvin</a></sub></td>
+      <td>制作严格 3:4、上下各半的编辑海报：上半保真照片，下半暖白纸面配小型手绘插图与可选文字。<br><sub>MIT License（父仓库）。</sub></td>
+      <td align="center"><img src="assets/previews/art-split-source.jpg" width="118" alt="Art Split Poster source photograph"> <img src="assets/previews/art-split-result.jpg" width="118" alt="Art Split Poster result"><br><sub>Before · After</sub></td>
+    </tr>
+    <tr>
+      <td><a href="skills/heytea-doodle-poster.md"><strong>Heytea Doodle Poster</strong></a><br><sub>by <a href="https://github.com/Hchen1218">Hchen1218</a></sub></td>
+      <td>把食品、饮品或产品照片的主体抠出，与粗黑手绘人物、活泼中文字体和大面积暖白留白重新组合。<br><sub>代码 MIT；自制示例 CC BY 4.0。</sub></td>
+      <td align="center"><img src="assets/previews/heytea-source.jpg" width="118" alt="Heytea Doodle Poster source photograph"> <img src="assets/previews/heytea-result.png" width="118" alt="Heytea Doodle Poster result"><br><sub>Before · After</sub></td>
+    </tr>
+    <tr>
+      <td><a href="skills/photo-polaroid.md"><strong>Photo Polaroid</strong></a><br><sub>by <a href="https://github.com/LeviQin">LeviQin</a></sub></td>
+      <td>用本地确定性脚本把照片放进拍立得卡片，可加标题、日期和旋转角度，不会重新生成主体。<br><sub>MIT License。</sub></td>
+      <td align="center"><img src="assets/previews/heytea-source.jpg" width="118" alt="Photo Polaroid source image"> <img src="assets/previews/photo-polaroid-result.png" width="118" alt="Photo Polaroid result"><br><sub>Before · After</sub></td>
+    </tr>
+    <tr>
+      <td><a href="skills/photo-postcard.md"><strong>Photo Postcard</strong></a><br><sub>by <a href="https://github.com/LeviQin">LeviQin</a></sub></td>
+      <td>从照片制作可分享的明信片正面，并可生成带留言与地址区域的可打印背面；地点不确定时不会擅自编造。<br><sub>MIT License。</sub></td>
+      <td align="center"><img src="assets/previews/heytea-source.jpg" width="118" alt="Photo Postcard source image"> <img src="assets/previews/photo-postcard-result.png" width="118" alt="Photo Postcard result"><br><sub>Before · After</sub></td>
+    </tr>
+    <tr>
+      <td><a href="skills/photo-story.md"><strong>Photo Story</strong></a><br><sub>by <a href="https://github.com/LeviQin">LeviQin</a></sub></td>
+      <td>依据画面中可见事实写一段短故事，再把照片与文字排成故事卡；明确区分观察和虚构内容。<br><sub>MIT License。</sub></td>
+      <td align="center"><img src="assets/previews/heytea-source.jpg" width="118" alt="Photo Story source image"> <img src="assets/previews/photo-story-result.png" width="118" alt="Photo Story result"><br><sub>Before · After</sub></td>
+    </tr>
+    <tr>
+      <td><a href="skills/photo-wallpaper.md"><strong>Photo Wallpaper</strong></a><br><sub>by <a href="https://github.com/LeviQin">LeviQin</a></sub></td>
+      <td>通过模糊补边、居中裁切或纯色适配，将照片制作成指定尺寸的手机或桌面壁纸，不做非等比拉伸。<br><sub>MIT License。</sub></td>
+      <td align="center"><img src="assets/previews/heytea-source.jpg" width="118" alt="Photo Wallpaper source image"> <img src="assets/previews/photo-wallpaper-result.png" width="118" alt="Photo Wallpaper result"><br><sub>Before · After</sub></td>
     </tr>
   </tbody>
 </table>

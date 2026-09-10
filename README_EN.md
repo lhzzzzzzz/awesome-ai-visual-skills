@@ -6,7 +6,7 @@ A curated directory of practical AI visual Agent Skills, with a particular focus
 
 This repository provides navigation, independently written summaries, and installation notes. It does not mirror third-party Skill source code. Sources may include GitHub, public Skill marketplaces, independent websites, documentation sites, and community projects.
 
-> During this early stage, the directory uses only two broad groups: photo reinterpretation and general visual workflows. Ordering is not a ranking. Information was last checked on 2026-09-09.
+> During this early stage, the directory uses only two broad groups: photo reinterpretation and general visual workflows. Ordering is not a ranking. Information was last checked on 2026-09-10.
 
 ## Photo Reinterpretation Skills
 
@@ -49,6 +49,56 @@ Select a Skill name to open its English detail page, including source links, ins
       <td><a href="skills/photo-to-monthly-zine-postcard.md"><strong>Photo to Monthly Zine Postcard</strong></a><br><sub>by <a href="https://github.com/shenchangyi">shenchangyi</a></sub></td>
       <td>Builds a 3:4 monthly Zine postcard that preserves the full photo and adds scene-matched watercolor, month, literature, and music information.<br><sub>MIT License.</sub></td>
       <td align="center"><img src="assets/previews/monthly-zine-postcard.jpg" width="240" alt="Monthly Zine Postcard combined official example"><br><sub>Combined official example</sub></td>
+    </tr>
+    <tr>
+      <td><a href="skills/gpt-image2-skill.md"><strong>GPT Image 2 Skill</strong></a><br><sub>by <a href="https://github.com/wuyoscar">wuyoscar</a></sub></td>
+      <td>Extracts reusable positive and negative prompts from a reference, then generates or edits images with a companion Skill and a large style gallery.<br><sub>MIT License.</sub></td>
+      <td align="center"><img src="assets/previews/gpt-image2-reference.jpg" width="118" alt="GPT Image 2 reference image"> <img src="assets/previews/gpt-image2-result.png" width="118" alt="GPT Image 2 generated result"><br><sub>Before · After</sub></td>
+    </tr>
+    <tr>
+      <td><a href="skills/photo-riso-poster.md"><strong>Photo Riso Poster</strong></a><br><sub>by <a href="https://github.com/luckdvr">luckdvr</a></sub></td>
+      <td>Reduces a photo's main forms, directions, and sampled colors into a two- or three-ink risograph poster with grain and slight misregistration.<br><sub>MIT License.</sub></td>
+      <td align="center"><img src="assets/previews/photo-riso-poster.jpg" width="240" alt="Photo Riso Poster combined source and result"><br><sub>Combined official example</sub></td>
+    </tr>
+    <tr>
+      <td><a href="skills/ink-wash-poster.md"><strong>Ink Wash Poster</strong></a><br><sub>by <a href="https://github.com/TwentyfiveBTea">TwentyfiveBTea</a></sub></td>
+      <td>Reinterprets a reference as a vertical ink-and-paper editorial poster built around one dominant ink gesture, negative space, and sparse type.<br><sub>GNU AGPL-3.0.</sub></td>
+      <td align="center"><img src="assets/previews/ink-wash-source.jpg" width="118" alt="Ink Wash Poster source photograph"> <img src="assets/previews/ink-wash-result.png" width="118" alt="Ink Wash Poster result"><br><sub>Before · After</sub></td>
+    </tr>
+    <tr>
+      <td><a href="skills/xxd-panel-028.md"><strong>XXD Panel 028</strong></a><br><sub>by <a href="https://github.com/nevertoday">nevertoday</a></sub></td>
+      <td>Turns a photo's recognizable silhouette, relationships, and source colors into an orthographic isometric miniature on a paper base.<br><sub>PolyForm Noncommercial 1.0.0.</sub></td>
+      <td align="center"><img src="assets/previews/xxd-panel-028.png" width="240" alt="XXD Panel 028 combined source and result"><br><sub>Combined official example</sub></td>
+    </tr>
+    <tr>
+      <td><a href="skills/art-split-poster.md"><strong>Art Split Poster</strong></a><br><sub>by <a href="https://github.com/heycalvin">heycalvin</a></sub></td>
+      <td>Creates a strict 3:4 half-photo, half-paper poster with a faithful photograph above and a tiny source-derived drawing below.<br><sub>MIT License (parent repository).</sub></td>
+      <td align="center"><img src="assets/previews/art-split-source.jpg" width="118" alt="Art Split Poster source photograph"> <img src="assets/previews/art-split-result.jpg" width="118" alt="Art Split Poster result"><br><sub>Before · After</sub></td>
+    </tr>
+    <tr>
+      <td><a href="skills/heytea-doodle-poster.md"><strong>Heytea Doodle Poster</strong></a><br><sub>by <a href="https://github.com/Hchen1218">Hchen1218</a></sub></td>
+      <td>Recomposes food, drink, product, or everyday photos with a clean cutout, rough black-line characters, lively type, and warm-white space.<br><sub>MIT code; self-created examples CC BY 4.0.</sub></td>
+      <td align="center"><img src="assets/previews/heytea-source.jpg" width="118" alt="Heytea Doodle Poster source photograph"> <img src="assets/previews/heytea-result.png" width="118" alt="Heytea Doodle Poster result"><br><sub>Before · After</sub></td>
+    </tr>
+    <tr>
+      <td><a href="skills/photo-polaroid.md"><strong>Photo Polaroid</strong></a><br><sub>by <a href="https://github.com/LeviQin">LeviQin</a></sub></td>
+      <td>Uses a deterministic local renderer to place a photo in an instant-photo card with optional caption, date, and rotation.<br><sub>MIT License.</sub></td>
+      <td align="center"><img src="assets/previews/heytea-source.jpg" width="118" alt="Photo Polaroid source image"> <img src="assets/previews/photo-polaroid-result.png" width="118" alt="Photo Polaroid result"><br><sub>Before · After</sub></td>
+    </tr>
+    <tr>
+      <td><a href="skills/photo-postcard.md"><strong>Photo Postcard</strong></a><br><sub>by <a href="https://github.com/LeviQin">LeviQin</a></sub></td>
+      <td>Builds a shareable postcard front and optional printable back, without inventing an uncertain place or date.<br><sub>MIT License.</sub></td>
+      <td align="center"><img src="assets/previews/heytea-source.jpg" width="118" alt="Photo Postcard source image"> <img src="assets/previews/photo-postcard-result.png" width="118" alt="Photo Postcard result"><br><sub>Before · After</sub></td>
+    </tr>
+    <tr>
+      <td><a href="skills/photo-story.md"><strong>Photo Story</strong></a><br><sub>by <a href="https://github.com/LeviQin">LeviQin</a></sub></td>
+      <td>Writes a short story grounded in visible evidence and renders it with the photograph as a story card, separating observation from invention.<br><sub>MIT License.</sub></td>
+      <td align="center"><img src="assets/previews/heytea-source.jpg" width="118" alt="Photo Story source image"> <img src="assets/previews/photo-story-result.png" width="118" alt="Photo Story result"><br><sub>Before · After</sub></td>
+    </tr>
+    <tr>
+      <td><a href="skills/photo-wallpaper.md"><strong>Photo Wallpaper</strong></a><br><sub>by <a href="https://github.com/LeviQin">LeviQin</a></sub></td>
+      <td>Fits a photo to an exact phone or desktop canvas with blur, crop, or plain-fit modes and no non-uniform stretching.<br><sub>MIT License.</sub></td>
+      <td align="center"><img src="assets/previews/heytea-source.jpg" width="118" alt="Photo Wallpaper source image"> <img src="assets/previews/photo-wallpaper-result.png" width="118" alt="Photo Wallpaper result"><br><sub>Before · After</sub></td>
     </tr>
   </tbody>
 </table>
