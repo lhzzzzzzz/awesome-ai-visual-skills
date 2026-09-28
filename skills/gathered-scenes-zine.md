@@ -40,6 +40,15 @@ Use $scene-distillation-zine-v1-3 to reinterpret this photo.
 Do not preserve the photograph itself; express “approaching and missing.”
 ```
 
+### Source-aware, no-text variation
+
+Community prompt contributed by [@Frrrank](https://github.com/Frrrank). This variation deliberately overrides the Skill's default micro-text and broad cream-paper tendencies while keeping its source-derived composition, structural color, and torn-fiber transition.
+
+```text
+Use $scenes-gathered-zine-v1-3.
+保留人物身份、姿态、透视和真实光色，以源图色彩重构纸面，不使用大面积白色，手撕纤维边缘与场景结构自然衔接，每张只使用一种高饱和结构色，加入克制、断续的素描与干刻线条，无新增文字、贴纸感和模板化装饰，根据每张照片的空间与情绪采用不同构图语言
+```
+
 ## Safety and privacy
 
 - The source photo may be sent to the image provider selected by the host application. Check its privacy and retention terms.
